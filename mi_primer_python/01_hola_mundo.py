@@ -2,11 +2,12 @@ print('Hello world!')
 print('Im learning Python')
 print('My first program works correcly')
 
-nombre = 'Benjamin Pardo'
-edad = '17'
-especialidad = 'Programacion'
+nombre = input('Ingrese su nombre: ')
+edad = input('Ingrese su edad: ')
+especialidad = input('Ingrese su Especialidad: ')
+frase = input('Ingrese una frase de lo que espera poder aprender con python: ')
 
 print(f'Nombre: {nombre}')
 print(f'Edad: {edad}')
 print(f'Especialidad: {especialidad}')
-print('Espero que me enseñen a hacer una ruleta rusa que te borra el system 32 cuando pierdes :)')
+print(frase)
